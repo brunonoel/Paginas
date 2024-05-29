@@ -11,7 +11,6 @@
 </head>
 
 <body>
-
     <!-- Menu Encabezado -->
     <div class="contenedor-header">
         <header>
@@ -20,53 +19,35 @@
             </div>
             <nav id="nav" class="responsive">
                 <ul>
-                    <li class="boton1"><a href="index.html">INICIO</a></li>
+                    <li class="boton1"><a href="#" data-section="inicio">INICIO</a></li>
                     <li id="boton2" class="desplegable">
-                        <a href="nosotros.html">NOSOTROS</a>
+                        <a href="#" data-section="nosotros">NOSOTROS</a>
                         <ul class="submenu">
-                            <li><a href="#">Historia</a></li>
-                            <li><a href="#">Politicas de Servicio</a></li>
+                            <li><a href="#" data-section="historia">Historia</a></li>
+                            <li><a href="#" data-section="politicas">Políticas de Servicio</a></li>
                         </ul>
                     </li>
-
                     <li id="boton3" class="desplegable">
-                        <a href="nosotros.html">SERVICIOS</a>
+                        <a href="#" data-section="servicios">SERVICIOS</a>
                         <ul class="submenu">
-                            <li class="desplegable-sub"><a href="#">Maquillaje Artistico</a>
-                                <ul class="submenu">
-                                    <li><a href="#">Pinta Caritas</a></li>
-                                    <li><a href="#">Pinta Pancitas</a></li>
-                                    <li><a href="#">Glitter Bar</a></li>
-                                    <li><a href="#">Neon Party</a></li>
-                                </ul>
-                            </li>
-                            <li class="desplegable-sub"><a href="#">Animaciones</a>
-                                <ul class="submenu">
-                                    <li><a href="#">Cumples Infantiles</a></li>
-                                    <li><a href="#">Jardincitos</a></li>
-                                    <li><a href="#">Desafio Aqua</a></li>
-                                    <li><a href="#">Asking Game</a></li>
-                                    <li><a href="#">Baby Shower</a></li>
-                                </ul>
-                            </li>
+                            <li><a href="#" data-section="maquillaje-artistico">Maquillaje Artístico</a></li>
+                            <li><a href="#" data-section="animaciones">Animaciones</a></li>
                         </ul>
                     </li>
-                    <li class="boton4"><a href="contacto.html">CONTACTO</a></li>
-                    <li class="boton5"><a href="registro.html">REGISTRO</a></li>
+                    <li class="boton4"><a href="#" data-section="contacto">CONTACTO</a></li>
+                    <li class="boton5" id="login-register"><a href="#" data-section="iniciar">INICIAR SESION / REGISTRO</a></li>
                 </ul>
             </nav>
+            
         </header>
     </div>
 
-    <!-- Saludo -->
-
-    <div class="background">
-        
+    <!-- Contenedor Principal -->
+    <div id="content" class="background">
         <div class="content">
             <div class="titulo">
                 <h1>BIENVENIDOS A ByP</h1>
             </div>
-
 
             <!-- Carrusel de imágenes -->
             <div class="carrusel">
@@ -79,7 +60,6 @@
                     <button class="siguiente">&#10095;</button>
                 </div>
             </div>
-
         </div>
     </div>
 
@@ -87,3 +67,5 @@
 </body>
 
 </html>
+
+
